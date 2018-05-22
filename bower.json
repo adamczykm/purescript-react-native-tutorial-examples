@@ -1,0 +1,29 @@
+{
+  "name": "purescript-reactnative-tutorial-examples",
+  "description": "Step-by-step simple examples of purescript-reactnative tutorial apps",
+  "main": "Main.purs",
+  "authors": [
+    "Michał Adamczyk <michal.anks@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/adamczykm/purescript-reactnative-tutorial-examples",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-simple-json": "^3.0.0",
+    "purescript-affjax": "^5.0.0",
+    "purescript-dispatcher-react": "^3.1.0",
+    "purescript-reactnative": "^5.0.0",
+    "purescript-random": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-debug": "^3.0.0",
+    "purescript-console": "^3.0.0"
+  }
+}

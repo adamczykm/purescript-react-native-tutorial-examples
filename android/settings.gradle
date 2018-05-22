@@ -1,0 +1,3 @@
+rootProject.name = 'purescriptReactnativeTutorialExamples'
+
+include ':app'

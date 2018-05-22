@@ -1,0 +1,34 @@
+{
+  "name": "purescriptReactnativeTutorialExamples",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower cache clean && ./node_modules/.bin/bower install",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build:ios": "rimraf output && pulp build --to index.js",
+    "watch:ios": "rimraf output && pulp -w build --to index.js",
+    "build:android": "pulp build --to index.js",
+    "watch:android": "pulp -w build --to index.js"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.0",
+    "g": "^2.0.1",
+    "pulp": "^11.0.0",
+    "react": "^16.0.0",
+    "react-native": "^0.50.1",
+    "react-native-cli": "^2.0.1",
+    "react-navigation": "^1.0.0-beta.19"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "bower": "^1.8.4",
+    "jest": "19.0.2",
+    "react-test-renderer": "~15.4.0",
+    "rimraf": "^2.5.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
